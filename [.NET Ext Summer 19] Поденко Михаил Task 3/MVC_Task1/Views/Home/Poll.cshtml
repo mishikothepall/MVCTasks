@@ -1,0 +1,40 @@
+﻿
+<div id="vte">
+    <div class="init">
+        @if (!Request.Cookies.AllKeys.Contains("My localhost cookie"))
+        {
+            @Html.ValidationSummary(true)
+            using (Ajax.BeginForm("Poll", new AjaxOptions { UpdateTargetId = "vte" }))
+            {
+                foreach (var v in Model)
+                {
+
+                    <p>
+                        @Html.RadioButton("id", $"{v.Id}", new { required = "required" })
+
+                        @v.Name
+                    </p>
+                    <br>
+                }
+                <input type="submit" class="vote" value="Проголосовать">
+            }
+        }
+        else
+
+        {
+
+            foreach (var r in Model)
+            {
+
+                <label id="art">@r.Name</label>
+
+                <p id="rate">
+                    @r.Rating
+                </p>
+
+            }
+
+        }
+    </div>
+
+</div>

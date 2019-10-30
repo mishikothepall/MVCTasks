@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "GetArticle";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+}
+
+<div class="summary">
+    @foreach (var v in Model)
+    {
+        <h2 id="artHd">@v.Name</h2>
+        <h4 id="artDt">@v.Date</h4>
+        <p id="artCon">@v.Contain</p>
+        <p id="tgs">Тэги: @v.Tags</p>
+    }
+</div>

@@ -1,0 +1,40 @@
+﻿@using MVC_Task1.MyHelpers
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    @*@*<link rel="stylesheet" type="text/css" href="~/Content/Site.css">*@
+    @Styles.Render("~/Content/MySite.css")
+    @Scripts.Render("~/Scripts/MyScript.js")
+    @Scripts.Render("~/Scripts/jquery-3.3.1.js")
+    @Scripts.Render("~/Scripts/jquery.unobtrusive-ajax.js")
+    <title>Задание 1 MVC</title>
+</head>
+<body>
+
+    <header>  
+    <img id="img_logo" alt="Logo" src="@Url.Content("~/Content/Images/csh.png")" />
+    <h2 id="capt">Задание 1 MVC</h2>
+    </header>
+
+    <div class="content">
+        <div class="right-sidebar">
+            <h1>Меню сайта</h1>
+            @ListHelpers.CreateMainMenu(Html)
+            @RenderSection("Poll", false)
+        </div>
+        <div class="main-body">
+            @RenderBody()
+        </div>
+    </div>
+
+    <footer>
+        
+        <h4>&copy; PodenkoMikhail.com 2019 All Rights Reserved</h4>
+        <button onclick="topFunction()" id="myBtn" >Вверх</button>
+    
+    </footer>
+    
+</body>
+</html>

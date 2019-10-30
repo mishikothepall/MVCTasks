@@ -1,0 +1,11 @@
+﻿
+@foreach (var reps in Model)
+{
+
+    <div id="comment">
+        @Html.Hidden("Id", $"{@reps.Id}")
+        <h2>@reps.Author</h2>
+        <h3>@reps.Date</h3>
+        <p>@reps.Content</p>
+    </div>
+}

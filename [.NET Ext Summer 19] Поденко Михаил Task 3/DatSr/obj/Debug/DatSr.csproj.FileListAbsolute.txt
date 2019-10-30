@@ -1,0 +1,48 @@
+C:\Users\Миша\Desktop\Tasks\MVC\Task 2\DAL\[.NET Ext Summer 19] Поденко Михаил Task 1\DatSr\bin\Debug\DatSr.dll.config
+C:\Users\Миша\Desktop\Tasks\MVC\Task 2\DAL\[.NET Ext Summer 19] Поденко Михаил Task 1\DatSr\bin\Debug\DatSr.dll
+C:\Users\Миша\Desktop\Tasks\MVC\Task 2\DAL\[.NET Ext Summer 19] Поденко Михаил Task 1\DatSr\bin\Debug\DatSr.pdb
+C:\Users\Миша\Desktop\Tasks\MVC\Task 2\DAL\[.NET Ext Summer 19] Поденко Михаил Task 1\DatSr\bin\Debug\EntityFramework.dll
+C:\Users\Миша\Desktop\Tasks\MVC\Task 2\DAL\[.NET Ext Summer 19] Поденко Михаил Task 1\DatSr\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Миша\Desktop\Tasks\MVC\Task 2\DAL\[.NET Ext Summer 19] Поденко Михаил Task 1\DatSr\bin\Debug\EntityFramework.xml
+C:\Users\Миша\Desktop\Tasks\MVC\Task 2\DAL\[.NET Ext Summer 19] Поденко Михаил Task 1\DatSr\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Миша\Desktop\Tasks\MVC\Task 2\DAL\[.NET Ext Summer 19] Поденко Михаил Task 1\DatSr\obj\Debug\DatSr.csprojAssemblyReference.cache
+C:\Users\Миша\Desktop\Tasks\MVC\Task 2\DAL\[.NET Ext Summer 19] Поденко Михаил Task 1\DatSr\obj\Debug\DatSr.csproj.CoreCompileInputs.cache
+C:\Users\Миша\Desktop\Tasks\MVC\Task 2\DAL\[.NET Ext Summer 19] Поденко Михаил Task 1\DatSr\obj\Debug\DatSr.csproj.CopyComplete
+C:\Users\Миша\Desktop\Tasks\MVC\Task 2\DAL\[.NET Ext Summer 19] Поденко Михаил Task 1\DatSr\obj\Debug\DatSr.dll
+C:\Users\Миша\Desktop\Tasks\MVC\Task 2\DAL\[.NET Ext Summer 19] Поденко Михаил Task 1\DatSr\obj\Debug\DatSr.pdb
+C:\Users\Миша\Desktop\Tasks\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\bin\Debug\DatSr.dll.config
+C:\Users\Миша\Desktop\Tasks\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\bin\Debug\DatSr.dll
+C:\Users\Миша\Desktop\Tasks\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\bin\Debug\DatSr.pdb
+C:\Users\Миша\Desktop\Tasks\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\bin\Debug\EntityFramework.dll
+C:\Users\Миша\Desktop\Tasks\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Миша\Desktop\Tasks\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\bin\Debug\EntityFramework.xml
+C:\Users\Миша\Desktop\Tasks\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Миша\Desktop\Tasks\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\obj\Debug\DatSr.csprojAssemblyReference.cache
+C:\Users\Миша\Desktop\Tasks\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\obj\Debug\DatSr.csproj.CoreCompileInputs.cache
+C:\Users\Миша\Desktop\Tasks\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\obj\Debug\DatSr.csproj.CopyComplete
+C:\Users\Миша\Desktop\Tasks\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\obj\Debug\DatSr.dll
+C:\Users\Миша\Desktop\Tasks\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\obj\Debug\DatSr.pdb
+C:\Users\Миша\Desktop\backup\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\bin\Debug\DatSr.dll.config
+C:\Users\Миша\Desktop\backup\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\bin\Debug\DatSr.dll
+C:\Users\Миша\Desktop\backup\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\bin\Debug\DatSr.pdb
+C:\Users\Миша\Desktop\backup\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\bin\Debug\EntityFramework.dll
+C:\Users\Миша\Desktop\backup\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Миша\Desktop\backup\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\bin\Debug\EntityFramework.xml
+C:\Users\Миша\Desktop\backup\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Миша\Desktop\backup\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\obj\Debug\DatSr.csprojAssemblyReference.cache
+C:\Users\Миша\Desktop\backup\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\obj\Debug\DatSr.csproj.CoreCompileInputs.cache
+C:\Users\Миша\Desktop\backup\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\obj\Debug\DatSr.csproj.CopyComplete
+C:\Users\Миша\Desktop\backup\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\obj\Debug\DatSr.dll
+C:\Users\Миша\Desktop\backup\DAL\[.NET Ext Summer 19] Поденко Михаил Task 2\DatSr\obj\Debug\DatSr.pdb
+C:\Users\Миша\Desktop\Tasks\MVC\[.NET Ext Summer 19] Поденко Михаил Task 3\DatSr\bin\Debug\DatSr.dll.config
+C:\Users\Миша\Desktop\Tasks\MVC\[.NET Ext Summer 19] Поденко Михаил Task 3\DatSr\bin\Debug\DatSr.dll
+C:\Users\Миша\Desktop\Tasks\MVC\[.NET Ext Summer 19] Поденко Михаил Task 3\DatSr\bin\Debug\DatSr.pdb
+C:\Users\Миша\Desktop\Tasks\MVC\[.NET Ext Summer 19] Поденко Михаил Task 3\DatSr\bin\Debug\EntityFramework.dll
+C:\Users\Миша\Desktop\Tasks\MVC\[.NET Ext Summer 19] Поденко Михаил Task 3\DatSr\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Миша\Desktop\Tasks\MVC\[.NET Ext Summer 19] Поденко Михаил Task 3\DatSr\bin\Debug\EntityFramework.xml
+C:\Users\Миша\Desktop\Tasks\MVC\[.NET Ext Summer 19] Поденко Михаил Task 3\DatSr\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Миша\Desktop\Tasks\MVC\[.NET Ext Summer 19] Поденко Михаил Task 3\DatSr\obj\Debug\DatSr.csprojAssemblyReference.cache
+C:\Users\Миша\Desktop\Tasks\MVC\[.NET Ext Summer 19] Поденко Михаил Task 3\DatSr\obj\Debug\DatSr.csproj.CoreCompileInputs.cache
+C:\Users\Миша\Desktop\Tasks\MVC\[.NET Ext Summer 19] Поденко Михаил Task 3\DatSr\obj\Debug\DatSr.csproj.CopyComplete
+C:\Users\Миша\Desktop\Tasks\MVC\[.NET Ext Summer 19] Поденко Михаил Task 3\DatSr\obj\Debug\DatSr.dll
+C:\Users\Миша\Desktop\Tasks\MVC\[.NET Ext Summer 19] Поденко Михаил Task 3\DatSr\obj\Debug\DatSr.pdb

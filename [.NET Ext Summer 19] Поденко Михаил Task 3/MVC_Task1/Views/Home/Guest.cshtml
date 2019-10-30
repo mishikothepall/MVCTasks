@@ -1,0 +1,35 @@
+﻿@model List<MVC_Task1.Models.FeedbackView.FeedBackViewModel>
+
+@{
+    ViewBag.Title = "Guest";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+    
+}
+
+<h2 id="body_cap">Отзывы</h2>
+
+<div id="commentSection">
+
+        @Html.Partial("AddFeed")
+
+    </div>
+<div class="form">
+    <h2>Ваш отзыв.</h2>
+
+    @Html.ValidationSummary(true, "Введите свое имя", new { @clas = "error_message" })
+
+
+    @using (Ajax.BeginForm("AddFeed", new AjaxOptions { UpdateTargetId="commentSection", HttpMethod="POST"}))
+    {
+
+        @Html.TextBox("Author", null, new { required = "required" });
+
+        <br>
+        @Html.TextArea("Content");
+        <br>
+
+<input type="submit" name="Submit" value="Отправить">
+    }
+</div>
+
+

@@ -1,0 +1,31 @@
+﻿
+@{
+    Layout = "~/Views/Shared/SummaryLayout.cshtml";
+
+
+}
+@using MVC_Task1.MyHelpers
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>QuizSummary</title>
+</head>
+<body>
+    <h2 id="body_cap"> Ваши ответы </h2>
+    <div class="summary">
+        @using (Html.BeginForm("QuizSummary", "Home", FormMethod.Get))
+        {
+            foreach (var c in Model)
+            {
+
+                <p>@c.Question</p>
+                <p>@c.UserAnswer</p>
+
+            }
+            <input type="submit" name="submit" value="Подтвердить">
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿@{
+
+    ViewBag.Title = "HomePage";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+
+}
+
+@section Poll{
+
+
+    <h3>Голосование</h3>
+
+    @Html.Partial("Poll")
+
+
+}
+@foreach (var v in Model) {
+
+<div class="article">
+
+@using (Html.BeginForm("GetArticle", "Home", FormMethod.Post))
+{
+    @Html.Hidden("Id", $"{v.Id}")
+
+    <h2>@v.Name</h2>
+
+    <h4>@v.Date</h4>
+
+    <p>@v.ShortContent</p>
+
+    <input type="submit" value="Просмотр" >
+}
+
+</div>
+
+}
+
+
+
+
