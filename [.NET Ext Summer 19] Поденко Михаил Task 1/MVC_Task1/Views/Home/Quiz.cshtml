@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Quiz";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+    int cnt = 0;
+    int qu = 0;
+}
+@using MVC_Task1.MyHelpers
+@using MVC_Task1.Models
+<h2 id="body_cap" >Акета</h2>
+<div class="quiz">
+    @using (Html.BeginForm("QuizSummary", "Home", FormMethod.Post))
+    {
+        foreach (var q in ViewBag.Ql)
+        {
+            if (q.Type == 2)
+            {
+                <p>@q.Question</p>
+                @Html.Hidden($"Question{qu++}", $"{qu}) {q.Question}")
+                @ListHelpers.CreateCheckbox(Html, (Variative)q, $"Answer{cnt++}")
+
+            }
+            else
+            if (q.Type == 3)
+            {
+                <p>@q.Question</p>
+                @Html.Hidden($"Question{qu++}", $"{qu}) {q.Question}")
+                @ListHelpers.CreateRadio(Html, (Variative)q, $"Answer{cnt++}")
+                cnt++;
+            }
+            else
+            {
+                <p>@q.Question</p>
+                @Html.Hidden($"Question{qu++}", $"{qu}) {q.Question}")
+                @Html.Editor($"Answer{cnt++}")
+            }
+        }
+        <input type="submit" name="Submit" value="Submit">
+    }
+</div>

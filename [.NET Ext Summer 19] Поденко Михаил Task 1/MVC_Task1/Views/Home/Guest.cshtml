@@ -1,0 +1,28 @@
+﻿@model MVC_Task1.Models.FeedBackModels.FeedbackMod
+@{
+    ViewBag.Title = "Guest";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+}
+
+<h2 id="body_cap">Отзывы</h2>
+<div class="commentSection">
+@foreach (var reps in ViewBag.Fds)
+{
+    <div id="comment">
+    <h2>@reps.Author</h2>
+    <h3>@reps.Date</h3>
+    <p>@reps.Content</p>
+    </div>
+}
+</div>
+<div class="form">
+    <h2>Ваш отзыв.</h2>
+@using (Html.BeginForm("AddFed", "Home", FormMethod.Post))
+{
+    @Html.TextBoxFor(model => model.Author);
+    <br>
+    @Html.TextAreaFor(model => model.Content);
+    <br>
+    <input type="submit" name="Submit" value="Отправить">
+}
+</div>

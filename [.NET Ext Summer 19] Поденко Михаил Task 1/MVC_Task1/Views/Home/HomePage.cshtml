@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "HomePage";
+    Layout = "~/Views/Shared/MyLayoutPage.cshtml";
+}
+
+
+
+@foreach (var v in ViewBag.Article) {
+<div class="article">
+    <h2>@v.Name</h2>
+    <h4>@v.Date</h4>
+    <p>@v.Contain</p>
+</div>
+    }
+
