@@ -1,0 +1,27 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/MySite.css")
+    @Scripts.Render("~/Scripts/MyScript.js")
+    <title>SummaryLayout</title>
+</head>
+<body>
+    <header>
+        <img id="img_logo" alt="Logo" src="@Url.Content("~/Content/Images/csh.png")" />
+        <h2 id="capt">Задание 1 MVC</h2>
+    </header>
+
+    <div class="contentQuiz">
+            @RenderBody()
+    </div>
+    <footer>
+
+        <h4>&copy; PodenkoMikhai.com 2019 All Rights Reserved</h4>
+        <button onclick="topFunction()" id="myBtn">Вверх</button>
+
+    </footer>
+</body>
+</html>
